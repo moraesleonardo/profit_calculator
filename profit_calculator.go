@@ -19,11 +19,10 @@ fmt.Print("Tax Rate: ")
 fmt.Scan(&tax_rate)
 
 earning_before_tax := revenue - expenses
-earnings_after_tax := earning_before_tax - (earning_before_tax * (tax_rate / 100))
+earnings_after_tax := earning_before_tax + (earning_before_tax * (tax_rate / 100))
 ratio := earning_before_tax / earnings_after_tax
 
 fmt.Println(earning_before_tax)
 fmt.Println(earnings_after_tax)
 fmt.Printf("%.2f\n", ratio)
-
 }
