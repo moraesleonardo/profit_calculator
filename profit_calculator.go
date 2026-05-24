@@ -24,5 +24,5 @@ ratio := earning_before_tax / earnings_after_tax
 
 fmt.Println(earning_before_tax)
 fmt.Println(earnings_after_tax)
-fmt.Printf("%.2f\n", ratio)
+fmt.Printf("Ratio is: %.2f\n", ratio)
 }
